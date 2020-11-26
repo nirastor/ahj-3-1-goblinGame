@@ -4,4 +4,4 @@
 ## Игра ткни в гоблина
 
 Сборка:  
-https://nirastor.github.io/ahj-2-1-moveEl/
+https://nirastor.github.io/ahj-3-1-goblinGame/
