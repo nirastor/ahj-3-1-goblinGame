@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.game__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.game__header {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Roboto, "Segoe UI", Arial, sans-serif;
+  margin-bottom: 40px;
+}
+
+.game__stat {
+  padding-left: 40px;
+}
+
+.game__newgame {
+  border-radius: 10px;
+  font-family: Roboto, "Segoe UI", Arial, sans-serif;
+  font-size: 30px;
+  height: 60px;
+  padding: 0 37px;
+  font-weight: bold;
+  background: transparent;
+  border: 3px solid black;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 10px;
+}
+
+.game__newgame:hover {
+  background-color: red;
+}
+
+.live__value {
+  color: red;
+  letter-spacing: 4px;
+}
+
+.field {
+  border-radius: 20px;
+  border: 7px dashed black;
+  max-width: 600px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.field__hole {
+  border-radius: 50%;
+  background-color: black;
+  margin: 15px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* cursor: pointer; */
+
+}
+
+.field__goblin {
+  border-radius: 50%;
+  background: no-repeat center/100% url("../img/goblin.png");
+  width: 120px;
+  height: 120px;
+  cursor: url("../img/hummer.png"), pointer;
+}
+
+.display-none {
+  display: none;
+}
+
+@media (max-width: 680px), (max-height: 780px) {
+ .game__wrapper {
+   padding-top: 20px;
+   align-items: flex-start;
+ }
+
+ .game__header {
+   font-size: 20px;
+   font-weight: normal;
+   margin-bottom: 20px;
+ }
+
+ .game__stat {
+  padding-left: 20px;
+}
+
+ .game__newgame {
+  font-size: 20px;
+  font-weight: normal;
+  border-width: 2px;
+  height: 40px;
+  padding: 0 18px;
+  margin-top: 4px;
+ }
+ 
+  .field {
+   max-width: 300px;
+   padding: 7px;
+   border-width: 3px;
+ }
+
+ .field__hole {
+    margin: 7px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .field__goblin {
+    width: 60px;
+    height: 60px;
+  }
+}
