@@ -1,7 +1,7 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/77byme8m7k63ay2q?svg=true)](https://ci.appveyor.com/project/nirastor/ahj-2-1-moveel)
+[![Build status](https://ci.appveyor.com/api/projects/status/4p1p5lmb1vqxrkqb?svg=true)](https://ci.appveyor.com/project/nirastor/ahj-3-1-goblingame)
 ***
 
-## Перемещение элемента
+## Игра ткни в гоблина
 
 Сборка:  
 https://nirastor.github.io/ahj-2-1-moveEl/
